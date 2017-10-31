@@ -1,0 +1,72 @@
+.ui-slider-img img,.ios-tree-img img,.ios-indicator-img img,.ios-class-img img{
+    width: 100%;
+}
+.ios-whole-title{
+    display: block;
+    font-size: 0.36rem;
+    font-weight: bold;
+    text-align: center;
+    color: #2DA7F2;
+    margin: 0.2rem 0 0.2rem 0;
+}
+.ios-front-title{
+    margin: 0 0 0.4rem 0;
+}
+.ios-usual-font{
+    display: block;
+    font-size: 0.24rem;
+    /* font-weight: bold; */
+    text-align: center;
+    color: #888;
+    margin: 0.2rem 0 0 0;
+}
+.ios-intro-block{
+    overflow: hidden;
+    margin: 0 0 0.2rem 0;
+}
+.ios-lf-img{
+    width: 30%;
+    float: left;
+    margin: 0 5% 0 0;
+}
+.ios-lf-img img{
+    width: 100%;
+}
+.ios-intro-cont{
+    width: 65%;
+    float: left;
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+}
+.ios-intro-title{
+    /* display: block; */
+    font-size: 0.38rem;
+    /* font-weight: bold; */
+    /* text-align: center; */
+    color: #2DA7F2;
+    margin: 0 0 0.1rem 0;
+}
+.ios-outlook{
+    font-size: 0.22rem;
+    line-height: 0.4rem;
+    margin: 0 0 0.3rem 0;
+    text-align: center;
+}
+.ios-true{
+    margin: 0 0 0.3rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

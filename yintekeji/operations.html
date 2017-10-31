@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/index/bitbug_favicon.ico" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/operations.css">
+    <title>系统自动化运维</title>
+    <script>
+        (function() {
+            var tid = null, docEl = document.documentElement, BASE_WIDTH = 750,
+                    ROOT_FONT_SIZE = 100;
+            function refreshRem() {
+                var width = docEl.getBoundingClientRect().width;
+                rem = width / (BASE_WIDTH / ROOT_FONT_SIZE);
+                docEl.style.fontSize = rem + "px";
+            }
+            refreshRem();
+            window.addEventListener("resize", function() {
+                clearTimeout(tid);
+                tid = setTimeout(refreshRem, 300);
+            }, false);
+        })();
+    </script>
+</head>
+<body>
+<div class="header">
+
+</div>
+<div class="operations-cont">
+    <div class="operations-slider-img">
+        <img src="images/operations/run_fix_banner.png" alt="">
+    </div>
+    <div class="net-child">
+        <div class="net-child-title">
+            互联网"薪"宠儿
+        </div>
+        <div class="net-child-cont">
+            2013年Linux基金会发布"Linux就业报告"，对2300名企业招聘经理进行了 调查，其中80%的企业表示招聘Linux人才是今年的重中之重，50%多表示 将增加招聘Linux相关职位。与此同时，"IT从业人员的平均薪水同比涨幅为 2%，而Linux人员的薪水同比涨幅为5%。85%的企业表示，寻找Linux人才 十分困难。
+        </div>
+        <div class="net-child-img">
+            <img src="images/operations/run_fix_salary.png" alt="">
+        </div>
+    </div>
+    <div class="net-structure">
+        <div class="net-structure-title">
+            构建大型企业网络结构<br>
+            学会如何保障整个网络的基础平台稳定
+        </div>
+        <div class="net-structure-cont">
+            • 配置核心交换机，实现互联线缆的以太网链路捆绑;<br>
+            • 配置核心交换机，实现HSRP冗余网关;<br>
+            • 配置接入层交换机的内网Vlan划分;<br>
+            • 配置出口两台路由器，实现内网用户访问外网的NAT地址转换;<br>
+            • 配置静态路由及默认路由，实现全网互通;<br>
+            • 配置相应接口ACL指令，控制外网机内网与服务器的互通。
+        </div>
+        <div class="net-structure-img">
+            <img src="images/operations/run_fix_net.png" alt="">
+        </div>
+    </div>
+    <div class="smart-dns">
+        <div class="smart-dns-title">
+            构建智能DNS及邮件系统<br>
+            学会如何熟练地管理和维护邮件服务器
+        </div>
+        <div class="smart-dns-cont">
+            • 使用BIND提供智能DNS解析、实现内外分离;<br>
+            • 使用Postfix+Dovecot提供邮件收发服务;<br>
+            • 使用EXTMail为用户提供Web邮箱界面;<br>
+            • 使用EXTMan为管理员提供邮箱管理接口;<br>
+            • 针对邮件内容实现病毒扫描、垃圾邮件过滤。
+        </div>
+        <div class="smart-dns-img">
+            <img src="images/operations/run_fix_DNS.png" alt="">
+        </div>
+    </div>
+    <div class="web-structure">
+        <div class="web-structure-title">
+            构建百万并发Web集群架构<br>
+            学会如何在生产环境中<br>
+            要保证服务器7×24小时不间断提供服务
+        </div>
+        <div class="web-structure-cont">
+            • 使用LVS+HAProxy 实现负载分发;<br>
+            • 使用Keepalived 实现资源间的高可用性;<br>
+            • 使用Nginx+Squid 缓存组提高Web 响应能力;<br>
+            • 使用IPSAN 提供共享的数据存储;<br>
+            • 使用Cacti+Nagios 实现设备和服务资源监控;<br>
+            • 使用PXE+Kickstart 技术快速部署服务器;<br>
+            • 使用Oracle 或MySQL 构建数据库双机系统。
+        </div>
+        <div class="web-structure-img">
+            <img src="images/operations/run_fix_serve.png" alt="">
+        </div>
+    </div>
+
+    <!--下面为通用的-->
+    <div class="human-service-block">
+        <div class="human-service-title">
+            人才服务
+        </div>
+        <span class="human-service-eng">
+            Talent&nbsp;service
+        </span>
+        <span class="human-service-txt">
+            通过<span class="human-color-blue">印特旗下二级学院</span> ，为超过一万名处于大学4年和步入职场前5年的青年群体提供岗前互联网相关技能培训服务和就业帮助。 为国内外企业提供互联网人才输送和人才咨询服务，致力于搭建企业和人才之间的敏捷对接平台。
+        </span>
+    </div>
+    <div class="advantage-block">
+        <div class="company-backup">
+            <span class="general-title">
+                强大企业后援<br>
+                享受优先就业权
+            </span>
+            <span class="general-txt">
+                各大名企常年与印特<br>
+                保持密切合作，<br>
+                打造“就业直升班”，<br>
+                毕业不愁没出路
+            </span>
+        </div>
+        <div class="need-talent">
+            <span class="general-title">
+                真正打造行业所需人才
+            </span>
+            <span class="general-txt">
+                各大名企常年与印特<br>
+                保持密切合作，<br>
+                打造“就业直升班”，<br>
+                毕业不愁没出路
+            </span>
+        </div>
+        <div class="teach-mode">
+            <span class="general-title">
+                多平台教学模式
+            </span>
+            <span class="general-txt">
+                各大名企常年与印特<br>
+                保持密切合作，<br>
+                打造“就业直升班”，<br>
+                毕业不愁没出路
+            </span>
+        </div>
+
+        <div class="program-plan">
+            <span class="general-title">
+                更科学、人性化的课程规划
+            </span>
+            <span class="general-txt">
+                各大名企常年与印特<br>
+                保持密切合作，<br>
+                打造“就业直升班”，<br>
+                毕业不愁没出路
+            </span>
+        </div>
+        <div class="propaganda-theme">
+            <span class="propaganda-theme-numb">9</span><br>
+            大优势<br>
+            让你看<br>
+            得到效果
+        </div>
+        <div class="free-learn">
+            <span class="general-title">
+                免费重修，学会为止
+            </span>
+            <span class="general-txt">
+                各大名企常年与印特<br>
+                保持密切合作，<br>
+                打造“就业直升班”，<br>
+                毕业不愁没出路
+            </span>
+        </div>
+
+        <div class="promise">
+            <span class="general-title">
+                保就业，敢书面承诺
+            </span>
+            <span class="general-txt">
+                各大名企常年与印特<br>
+                保持密切合作， <br>
+                打造“就业直升班”，<br>
+                毕业不愁没出路
+            </span>
+        </div>
+        <div class="power">
+            <span class="general-title">
+                有实力，更高薪
+            </span>
+            <span class="general-txt">
+                各大名企常年与印特<br>
+                保持密切合作，<br>
+                打造“就业直升班”，<br>
+                毕业不愁没出路
+            </span>
+        </div>
+        <div class="promise">
+            <span class="general-title">
+                保就业，敢书面承诺
+            </span>
+            <span class="general-txt">
+                各大名企常年与印特<br>
+                保持密切合作，<br>
+                打造“就业直升班”，<br>
+                毕业不愁没出路
+            </span>
+        </div>
+    </div>
+</div>
+<div class="mr-jobs">
+
+</div>
+<!--预约-->
+<div class="appointment">
+    <div class="appoint-information">
+        <div><input type="text" placeholder="请输入您的姓名"/></div>
+        <div><input type="text" placeholder="请输入您的手机号"/></div>
+        <div><input type="text" placeholder="IOS应用开发"/><span class="drag rt"><img src="images/index/drag.png" alt=""/></span></div>
+        <p class="btn-appoint">马上预约</p>
+    </div>
+    <div class="consult-detail">
+        <p class="consult-phone"><span class="consult-pic lf"><img src="images/index/phone.png" alt=""/></span><span class="consult-content lf">025-8598-5715</span></p>
+        <p class="consult-address"><span class="consult-pic lf"><img src="images/index/location.png" alt=""/></span><span class="consult-content lf">南京建邺区奥体大街68号新城科技园（国际研发总部园)2栋7楼C区</span></p>
+        <p class="consult-road"><span class="consult-pic lf"><img src="images/index/road.png" alt=""/></span><span class="consult-content lf">地铁10号线中胜站下转乘129路;170路;305路至泰山路·奥
+体大街站<br/>地铁2号线奥体东站下5号出站口步行约840米</span></p>
+    </div>
+</div>
+
+<div class="bottom"></div>
+<script src="js/jquery-1.11.3.js"></script>
+<script>
+    $('.header').load('data/header.php',function(){
+        $('.left-hbb').click(function(){
+            $('.classes-pop').css('display','block');
+            $('.cover').css('display','block');
+        });
+        $('.close img').click(function(){
+            $('.classes-pop').css('display','none');
+            $('.cover').css('display','none');
+        });
+    });
+    $('.bottom').load('data/footer.php');
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

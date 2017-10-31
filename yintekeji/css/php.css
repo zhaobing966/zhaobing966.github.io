@@ -1,0 +1,260 @@
+.php-slider-img img,.php-histogram-img img{
+    width: 100%;
+}
+.php-title{
+    font-size: 0.34rem;
+    color: #0B9EF1;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.3rem 0 0.3rem 0;
+}
+.php-title-one,.php-title-two{
+
+}
+.php-intro-txt{
+    font-size: 0.22rem;
+    color: #888;
+    line-height: 0.38rem;
+    padding: 0.3rem 0.22rem 0 0.22rem;
+}
+.php-color-blue{
+    color: #0B9EF1;
+    font-weight: bold;
+}
+.php-tips{
+    font-size: 0.24rem;
+    color: #888;
+}
+.php-youknow{
+    font-size: 0.34rem;
+    color: #0B9EF1;
+    margin: 0 0 0.2rem 0;
+    display: block;
+}
+/*旋转动效*/
+.php-rotate-block{
+    width: 7rem;
+    position: relative;
+    margin: 0 auto;
+    height: 7rem;
+    /*background: url(../images/php/circle_clude.png) no-repeat center;*/
+    /*background-size: 85% 85%;*/
+}
+.swip-center-img{
+    position: absolute;
+    left: 2.3rem;
+    top: 2.3rem;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.swip-img-radius{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.swip-img-radius img{
+    width: 100%;
+    display: block;
+}
+/*内层圆动作*/
+/*旋转*/
+.swip-translate-right,.swip-translate-bottom,.swip-translate-left,.swip-translate-top,.translate-min{
+    -moz-animation:rotate 20s infinite linear;
+    -webkit-animation:rotate 20s infinite linear;
+    animation: rotate 20s infinite linear;
+}
+/*自转*/
+.translate-right,.translate-bottom,.translate-left,.translate-top,.translate-max{
+    -moz-animation:norotate 20s infinite linear;
+    -webkit-animation:norotate 20s infinite linear;
+    animation: norotate 20s infinite linear;
+}
+/*外层圆动作*/
+/*旋转*/
+.swip-translate-right-away,.swip-translate-bottom-away,.swip-translate-left-away,.swip-translate-top-away,.swip-translate-oth-away{
+    -moz-animation:norotate 20s infinite linear;
+    -webkit-animation:norotate 20s infinite linear;
+    animation: norotate 20s infinite linear;
+}
+/*自转*/
+.translate-right-away,.translate-bottom-away,.translate-left-away,.translate-top-away,.translate-oth-away{
+    -moz-animation:rotate 20s infinite linear;
+    -webkit-animation:rotate 20s infinite linear;
+    animation: rotate 20s infinite linear;
+}
+.swip-own-img{
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    left: 3rem;
+    top: 3rem;
+}
+.translate-right{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top: 0;
+    left: 1.88rem;
+}
+.translate-bottom{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top:1.88rem;
+    left:0;
+}
+.translate-left{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top:0;
+    left:-1.88rem;
+}
+.translate-top{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top:-1.88rem;
+    left:0;
+}
+.translate-right-away{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top: 1.2rem;
+    left: 2.7rem;
+}
+.translate-bottom-away{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top:3rem;
+    left: -0.4rem;;
+}
+.translate-left-away{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top: 1.2rem;;
+    left:-2.6rem;
+}
+.translate-top-away{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top:-2.5rem;
+    left: -1.6rem;
+}
+.translate-oth-away{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top:-2rem;
+    left: 2.2rem;;
+}
+/*小虚线样式*/
+.translate-min{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: -1.5rem;
+    left: -1.5rem;
+    /* animation: rotate 20s infinite linear; */
+}
+/*大虚线样式*/
+.translate-max{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    top: -2.5rem;
+    left: -2.5rem;
+    /* animation: norotate 20s infinite linear; */
+}
+/*顺时针*/
+@-moz-keyframes rotate{
+    0%{
+        -moz-transform:rotate(0deg);
+    }
+    100%{
+        -moz-transform:rotate(360deg);
+    }
+}
+@-webkit-keyframes rotate{
+    0%{
+        -webkit-transform:rotate(0deg);
+    }
+    100%{
+        -webkit-transform:rotate(360deg);
+    }
+}
+@keyframes rotate{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+/*逆时针*/
+@-moz-keyframes norotate{
+    0%{
+        -moz-transform:rotate(360deg);
+    }
+    100%{
+        -moz-transform:rotate(0deg);
+    }
+}
+@-webkit-keyframes norotate{
+    0%{
+        -webkit-transform:rotate(360deg);
+    }
+    100%{
+        -webkit-transform:rotate(0deg);
+    }
+}
+@keyframes norotate{
+    0%{
+        transform:rotate(360deg);
+    }
+    100%{
+        transform:rotate(0deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

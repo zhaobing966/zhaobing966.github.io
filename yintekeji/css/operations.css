@@ -1,0 +1,21 @@
+
+.operations-slider-img,.net-child,.net-structure,.smart-dns,.web-structure{
+    width: 100%;
+
+}
+.operations-slider-img img{
+    width: 100%;
+}
+.net-child .net-child-title,.net-structure .net-structure-title,.smart-dns .smart-dns-title,.web-structure .web-structure-title{
+    color: #049DF1;
+    font-size: 0.4rem;
+    text-align: center;
+}
+.net-child .net-child-cont,.net-structure .net-structure-cont,.smart-dns .smart-dns-cont,.web-structure .web-structure-cont{
+    color: #999;
+    padding: 0.3rem 0.2rem 0.3rem 0.2rem;
+    font-size: 0.24rem;
+}
+.net-child .net-child-img img,.net-structure .net-structure-img img,.smart-dns .smart-dns-img img,.web-structure .web-structure-img img{
+    width: 100%;
+}

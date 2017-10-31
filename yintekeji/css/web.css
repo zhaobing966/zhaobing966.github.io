@@ -1,0 +1,38 @@
+
+.web-slider-img img,.web-bigweb img,.web-class img{
+    width: 100%;
+}
+.web-intro-title{
+    color: #049DF1;
+    font-size: 0.4rem;
+    text-align: center;
+}
+.web-intro-cont{
+    color: #999;
+    padding: 0.3rem 0.2rem 0.3rem 0.2rem;
+    font-size: 0.24rem;
+}
+.web-intro-ul{
+    margin: 0;
+    padding: 0;
+}
+.web-require,.web-salary,.web-view{
+    list-style: none;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.web-require img,.web-salary img,.web-view img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.web-require span,.web-salary span,.web-view span{
+    font-size: 0.3rem;
+    color: #666563;
+    /* float: left; */
+    display: block;
+    margin: 0.48rem auto;
+}
+
+

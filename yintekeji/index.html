@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">-->
+    <link rel="shortcut icon" href="images/index/bitbug_favicon.ico" />
+    <link rel="stylesheet" href="css/iSlider.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <title>index</title>
+    <script>
+        (function() {
+            var tid = null, docEl = document.documentElement, BASE_WIDTH = 750,
+                    ROOT_FONT_SIZE = 100;
+            function refreshRem() {
+                var width = docEl.getBoundingClientRect().width;
+                rem = width / (BASE_WIDTH / ROOT_FONT_SIZE);
+                docEl.style.fontSize = rem + "px";
+            }
+            refreshRem();
+            window.addEventListener("resize", function() {
+                clearTimeout(tid);
+                tid = setTimeout(refreshRem, 300);
+            }, false);
+        })();
+    </script>
+</head>
+<body>
+<div class="page-index">
+    <!-- 导航条-->
+    <div class="header">
+        <!--<div class="top">-->
+        <!--<span class="left-hbb lf"><img src="images/index/navbar_hbb.png" alt=""/></span>-->
+        <!--<span class="right-logo rt"><img src="images/index/logo.png" alt=""/></span>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; 遮罩层&ndash;&gt;-->
+        <!--<div class="cover">-->
+
+        <!--</div>-->
+        <!--&lt;!&ndash; 课程分类弹框&ndash;&gt;-->
+        <!--<div class="classes-pop">-->
+        <!--<ul class="classes-pop-ul">-->
+        <!--<li class="close"><img src="images/index/X.png" alt=""/></li>-->
+        <!--<li><a href="index.html">首页</a></li>-->
+        <!--<li><a href="">ios应用开发</a></li>-->
+        <!--<li><a href="">android应用开发</a></li>-->
+        <!--<li><a href="web.html">web前端应用开发</a></li>-->
+        <!--<li><a href="php.html">PHP开发</a></li>-->
+        <!--<li><a href="operations.html">系统自动化运维</a></li>-->
+        <!--<li><a href="pm.html">产品经理</a></li>-->
+        <!--<li><a href="uitrain.html">UI设计</a></li>-->
+        <!--<li><a href="">关于我们</a></li>-->
+        <!--</ul>-->
+        <!--</div>-->
+    </div>
+    <!-- 轮播图-->
+    <div class="swiper" id="iSlider-wrapper1">
+
+    </div>
+    <!--找工作-->
+    <div class="find-job">
+        <div class="guide-words">
+            <p class="small-word">前同事最近辞职了，理由是：不想做这样没有挑战的工作。</p>
+
+            <p class="small-word">大学毕业的小表弟，迷茫地做着薪资微薄的实习工作。</p>
+
+            <p class="small-word">隔壁邻居家的孩子，高考落榜后准备去南方打工。</p>
+
+            <p class="ask-word">工作，工作，究竟该找什么样的工作？</p>
+        </div>
+        <div class="work-varieties">
+            <div class="phonome lf">
+                <div class="phonome-pic first-p-pic">
+
+                </div>
+                <div class="phonome-words first-p-w">
+                    如果你是……<br/>
+                    刚刚大学毕业的应届生<br/>
+                    机会？人脉？薪资？项目？<br/>
+                    没有底气，想赚高薪！<br/>
+                    还有救？<br/>
+                </div>
+            </div>
+            <div class="phonome lf" style="margin-left: 0.66rem;">
+                <div class="phonome-pic second-p-pic">
+
+                </div>
+                <div class="phonome-words second-p-w">
+                    如果你是……<br/>
+                    壮志未酬的职场达人<br/>
+                    学历？名校？经验？技术？<br/>
+                    想跳槽，赚高薪！<br/>
+                    真的行？<br/>
+                </div>
+            </div>
+            <div class="phonome rt">
+                <div class="phonome-pic third-p-pic">
+
+                </div>
+                <div class="phonome-words third-p-w">
+                    如果你是……<br/>
+                    移动互联网行业的钟爱者<br/>
+                    转行？0基础？勇气？<br/>
+                    重头开始，赚高薪！<br/>
+                    可以吗？<br/>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--印特课程介绍-->
+    <div class="yinte-classes-introduction ">
+        <div class="intro-caption">
+            印特学院课程
+        </div>
+        <div style="border-bottom: 0.05rem solid #0169a2;width: 2.43rem;margin: 0 auto;"></div>
+        <div class="classes-detail">
+            <div class="classes-detail-words">
+                <p>实战专家让学员4个月获取10年设计功力</p>
+
+                <p>实战专家全职讲授课程，</p>
+
+                <p>每位讲师只讲授自己最擅长领域的课程，让学员博采众家之长。</p>
+            </div>
+            <div class="classes-detail-icon">
+                <div class="icon-classify lf">
+                    <div class="icon-pic">
+                        <img src="images/index/ios_dev.png" alt=""/>
+                    </div>
+                    <div class="icon-name">
+                        ios应用开发
+                    </div>
+                </div>
+                <div class="icon-classify lf">
+                    <div class="icon-pic">
+                        <img src="images/index/android_dev.png" alt=""/>
+                    </div>
+                    <div class="icon-name">
+                        android应用开发
+                    </div>
+                </div>
+                <div class="icon-classify lf">
+                    <div class="icon-pic">
+                        <img src="images/index/web_dev.png" alt=""/>
+                    </div>
+                    <div class="icon-name">
+                        web前端开发
+                    </div>
+                </div>
+                <div class="icon-classify lf">
+                    <div class="icon-pic">
+                        <img src="images/index/UI_dev.png" alt=""/>
+                    </div>
+                    <div class="icon-name">
+                        UI设计
+                    </div>
+                </div>
+                <div class="icon-classify lf">
+                    <div class="icon-pic">
+                        <img src="images/index/PHP_dev.png" alt=""/>
+                    </div>
+                    <div class="icon-name">
+                        PHP开发
+                    </div>
+                </div>
+                <div class="icon-classify lf">
+                    <div class="icon-pic">
+                        <img src="images/index/systemauto_dev.png" alt=""/>
+                    </div>
+                    <div class="icon-name">
+                        系统自动化运营
+                    </div>
+                </div>
+                <div class="icon-classify lf">
+                    <div class="icon-pic">
+                        <img src="images/index/productsmanager_dev.png" alt=""/>
+                    </div>
+                    <div class="icon-name">
+                        产品经理
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="classes-adver">
+
+        </div>
+    </div>
+    <!--印特师资介绍-->
+    <div class="yinte-teachers-introduction">
+        <div class="intro-caption">
+            印特学院师资
+        </div>
+        <div style="border-bottom: 0.05rem solid #0169a2;width: 2.43rem;margin: 0 auto;"></div>
+        <div class="teachers-detail">
+            <p class="main-words">印特学院致力于培养IT人才，开设Java、前端开发、UI设计等热门课程</p>
+            <div class="t-detail">
+                <div class="prev-next">
+                    <a href="javascript:void(0)" class="t-back-icon lf"><img src="images/index/index_back_lf.png" alt=""/></a>
+                    <a href="javascript:void(0)" class="t-back-icon rt" style="margin-right:0"><img src="images/index/index_back_rt.png" alt=""/></a>
+                </div>
+                <div class="main-conte">
+                    <ul class="teachers-lists">
+                        <li>
+                            <span class="teachers lf" >
+                                <p class="teachers-name">宗全珍</p>
+                                <p class="teachers-salary">年薪50万</p>
+                                <p class="teachers-position">前途牛技术总监</p>
+                                <!--<p class="teachers-exp">12年团队研发工作经验，途牛技术团队创始人员，曾任百姓健康网技术总监、江苏爱艺术CTO。-->
+                                <!--<p class="teachers-exp">带领团队研发途牛BOOS系统、财务及OA办公系统 、在线旅游产品定制 、江苏电信CP管理平台 、江苏联通短彩营销管理平台 、江苏爱艺术平台架构以及产品研发 。</p>-->
+                                <!--<p class="teachers-exp">精通PHP，对PHP的教学有自己的一套方法。</p>-->
+
+                                <p class="teachers-exp">
+                                    12年团队研发工作经验，途牛技术团队创始人员，曾任百姓健康网技术总监、江苏爱艺术CTO。<br>
+                                    带领团队研发途牛BOOS系统、财务及OA办公系统 、在线旅游产品定制 、江苏电信CP管理平台 、江苏联通短彩营销管理平台 、江苏爱艺术平台架构以及产品研发 。<br>
+                                    精通PHP，对PHP的教学有自己的一套方法。
+                                </p>
+                            </span>
+                        </li>
+
+                        <li>
+                            <span class="teachers lf" >
+                                <p class="teachers-name">任文东</p>
+                                <p class="teachers-salary">年薪30W+</p>
+                                <p class="teachers-position">前江苏移动运维总监</p>
+                                <p class="teachers-exp">
+                                    12年移动运维工作经验，毕业于东南大学，曾任江苏移动网络部技术总监、负责江苏移动网络部数据网管的建设、信令监测系统研发 、全省网络设备的维护和监控 、江苏移动拨测系统的架构和开发 、爱艺术系统架构和服务器运维 。<br>
+                                    精通LINUX 、MYSQL、nginx等系统，擅长系统架构、系统高并发优化。
+                                </p>
+                            </span>
+                        </li>
+
+                        <li>
+                            <span class="teachers lf" >
+                                <p class="teachers-name">杨维</p>
+                                <p class="teachers-salary">年薪30W+</p>
+                                <p class="teachers-position">前江苏移动运维总监</p>
+                                <p class="teachers-exp">
+                                    11年产品工作经验，毕业于法国科西嘉大学，曾任苏宁易购产品总监，负责过图书馆 、红孩子母婴  、缤购美妆  、城市专区  、百度阿拉丁  、智能货架   、门店和易购统一价。对产品有自己独到的见解，擅长培养学生对产品的深度理解。
+                                </p>
+                            </span>
+                        </li>
+
+                        <li>
+                            <span class="teachers lf" >
+                                <p class="teachers-name">宗全珍</p>
+                                <p class="teachers-salary">年薪50万</p>
+                                <p class="teachers-position">前途牛技术总监</p>
+                                <p class="teachers-exp">
+                                    12年团队研发工作经验，途牛技术团队创始人员，曾任百姓健康网技术总监、江苏爱艺术CTO。<br>
+                                    带领团队研发途牛BOOS系统、财务及OA办公系统 、在线旅游产品定制 、江苏电信CP管理平台 、江苏联通短彩营销管理平台 、江苏爱艺术平台架构以及产品研发 。<br>
+                                    精通PHP，对PHP的教学有自己的一套方法。
+                                </p>
+                            </span>
+                        </li>
+
+                        <li>
+                            <span class="teachers lf" >
+                                <p class="teachers-name">任文东</p>
+                                <p class="teachers-salary">年薪30W+</p>
+                                <p class="teachers-position">前江苏移动运维总监</p>
+                                <p class="teachers-exp">
+                                    12年移动运维工作经验，毕业于东南大学，曾任江苏移动网络部技术总监、负责江苏移动网络部数据网管的建设、信令监测系统研发 、全省网络设备的维护和监控 、江苏移动拨测系统的架构和开发 、爱艺术系统架构和服务器运维 。<br>
+                                    精通LINUX 、MYSQL、nginx等系统，擅长系统架构、系统高并发优化。
+                                </p>
+                            </span>
+                        </li>
+
+                        <li>
+                            <span class="teachers lf" >
+                                <p class="teachers-name">杨维</p>
+                                <p class="teachers-salary">年薪30W+</p>
+                                <p class="teachers-position">前江苏移动运维总监</p>
+                                <p class="teachers-exp">
+                                    11年产品工作经验，毕业于法国科西嘉大学，曾任苏宁易购产品总监，负责过图书馆 、红孩子母婴  、缤购美妆  、城市专区  、百度阿拉丁  、智能货架   、门店和易购统一价。对产品有自己独到的见解，擅长培养学生对产品的深度理解。
+                                </p>
+                            </span>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="mr-jobs">
+
+        </div>
+    </div>
+    <!--预约-->
+    <div class="appointment">
+        <div class="appoint-information">
+            <div><input type="text" placeholder="请输入您的姓名"/></div>
+            <div><input type="text" placeholder="请输入您的手机号"/></div>
+            <div><input type="text" placeholder="IOS应用开发"/><span class="drag rt"><img src="images/index/drag.png" alt=""/></span></div>
+            <p class="btn-appoint">马上预约</p>
+        </div>
+        <div class="consult-detail">
+            <p class="consult-phone"><span class="consult-pic lf"><img src="images/index/phone.png" alt=""/></span><span class="consult-content lf">025-8598-5715</span></p>
+            <p class="consult-address"><span class="consult-pic lf"><img src="images/index/location.png" alt=""/></span><span class="consult-content lf">南京建邺区奥体大街68号新城科技园（国际研发总部园)2栋7楼C区</span></p>
+            <p class="consult-road"><span class="consult-pic lf"><img src="images/index/road.png" alt=""/></span><span class="consult-content lf">地铁10号线中胜站下转乘129路;170路;305路至泰山路·奥
+体大街站<br/>地铁2号线奥体东站下5号出站口步行约840米</span></p>
+        </div>
+    </div>
+    <!--底部-->
+    <div class="bottom">
+        <!--<div class="contact-way">-->
+        <!--<div class="qr-code">-->
+        <!--<div class="code-pic"></div>-->
+        <!--<div class="oficial-wexin">官方微信</div>-->
+        <!--</div>-->
+
+        <!--<div class="contact-us">-->
+        <!--<div class="find-us">联系我们</div>-->
+        <!--<div class="phone">025-8598-5715</div>-->
+        <!--<div class="mail">-->
+        <!--<span class="mail-pic lf"></span>-->
+        <!--<span class="mail-detail lf">邮箱:wexinxt@163.com</span>-->
+        <!--</div>-->
+        <!--<div class="address">-->
+        <!--<span class="address-pic lf"></span>-->
+        <!--<span class="address-detail lf">地址:南京市建邺区新城科技园国际研发总部2栋7楼</span>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="copyright">-->
+        <!--<div>Copyright&copy;2003-2016 南京印特信息科技有限公司.All Rights Reserved..&nbsp;&nbsp;站长统计</div>-->
+        <!--</div>-->
+    </div>
+</div>
+<script src="js/iSlider.js"></script>
+<script src="js/iSlider.animate.min.js"></script>
+<script src="js/iSlider.plugin.button.min.js"></script>
+<script src="js/iSlider.plugin.dot.min.js"></script>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+
+
+<!--<script src="http://hovertree.com/jq/hovertreeimg/jquery.hovertreeimg.js"></script>-->
+<script>
+    $('.header').load('data/header.php',function(){
+        $('.left-hbb').click(function(){
+            $('.classes-pop').css('display','block');
+            $('.cover').css('display','block');
+        });
+        $('.close img').click(function(){
+            $('.classes-pop').css('display','none');
+            $('.cover').css('display','none');
+        });
+    });
+    $('.bottom').load('data/footer.php');
+    <!--轮播js-->
+    var list = [
+        // picture
+        {
+            content: 'images/index/index_slider_li.png'
+        },
+        // HTML String
+        {
+            content: 'images/index/index_slider_li.png'
+        },
+        {
+            content: 'images/index/index_slider_li.png'
+        },
+        {
+            content: 'images/index/index_slider_li.png'
+        },
+        // element
+
+    ];
+    var S = new iSlider(document.getElementById('iSlider-wrapper1'), list, {
+        isLooping: 1,
+        isOverspread: 1,
+        isAutoplay: 1,
+        animateTime: 800,
+//        animateType: 'flow',
+        plugins: ['dot']
+    });
+    /*底部轮播*/
+    jQuery(".t-detail").slide({titCell:".prev-next ul",mainCell:".main-conte ul",autoPage:true,effect:"left",autoPlay:true,vis:3,trigger:"click"});
+</script>
+
+</body>
+</html>

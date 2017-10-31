@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/index/bitbug_favicon.ico" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/uitrain.css">
+    <title>web前端</title>
+    <script>
+        (function() {
+            var tid = null, docEl = document.documentElement, BASE_WIDTH = 750,
+                    ROOT_FONT_SIZE = 100;
+            function refreshRem() {
+                var width = docEl.getBoundingClientRect().width;
+                rem = width / (BASE_WIDTH / ROOT_FONT_SIZE);
+                docEl.style.fontSize = rem + "px";
+            }
+            refreshRem();
+            window.addEventListener("resize", function() {
+                clearTimeout(tid);
+                tid = setTimeout(refreshRem, 300);
+            }, false);
+        })();
+    </script>
+</head>
+<body>
+<div class="header">
+
+</div>
+<div class="ui-cont">
+    <div class="ui-slider-img">
+        <img src="images/ui/UI_banner.png" alt="">
+    </div>
+    <div class="ui-hot-title">
+        热门职位,高薪机遇,全行业覆盖
+    </div>
+    <div class="ui-intro">
+        <div class="ui-intro-img">
+            <img src="images/ui/UI_designer.png" alt="">
+            <span class="ui-design">UI设计师</span>
+        </div>
+        <div class="ui-intro-rt">
+            <div class="ui-intro-rt-tip">
+                <div class="ui-intro-rt-tip-title">
+                    纳尼?<span class="ui-blue-font">UI设计师</span>
+                </div>
+                <img src="images/ui/UI_bottom_line.png" alt="">
+            </div>
+            <div class="ui-intro-rt-txt">
+                UI即User Interface（用户界面）的简称。泛指用户的操作界面，UI设计主要指界面的样式，美观程度。而使用上，对软件的人机交互、操作逻辑、界面美观的整体设计则是同样重要的另一个门道。好的UI不仅是让软件变得有个性有品味，还要让软件的操作变得舒适、简单、自由，充分体现软件的定位和特点。
+            </div>
+        </div>
+    </div>
+    <div class="ui-page-show">
+        <img src="images/ui/UI0003_07.png" alt="">
+    </div>
+    <div class="ui-salary">
+        <div class="ui-salary-img">
+            <img src="images/ui/UI_salary.png" alt="">
+            <span class="average-salary">平均薪资<span class="high-font">高</span></span>
+        </div>
+        <div class="ui-salary-rt">
+            <div class="ui-salary-rt-tip">
+                <div class="ui-salary-rt-tip-title">
+                    <span class="ui-blue-font">Sorry,</span>我不是富二代<br>
+                    <span class="ui-blue-font">我是UI设计师!</span>
+                </div>
+                <img src="images/ui/UI_bottom_line.png" alt="">
+            </div>
+            <div class="ui-salary-rt-txt">
+                平均薪资<span class="ui-blue-font">10000元</span><br>
+                工作经验1年，月收入>8000元占<span class="ui-blue-font">17%</span><br>
+                3-5年，月收入>8000元占<span class="ui-blue-font">84%</span><br>
+                5-10年，月收入>8000元占<span class="ui-blue-font">96%</span>
+            </div>
+        </div>
+    </div>
+    <div class="ui-histogram">
+        <img src="images/ui/UI0003_15.png" alt="">
+    </div>
+    <div class="ui-jobs">
+        <div class="ui-jobs-img">
+            <img src="images/ui/UI_spread.png" alt="">
+            <span class="industry-distribution">行业分布<span class="high-font">广</span></span>
+        </div>
+        <div class="ui-jobs-rt">
+            <div class="ui-jobs-rt-tip">
+                <div class="ui-jobs-rt-tip-title">
+                    <span class="ui-blue-font">岗位发展空间大,</span>你造吗?
+                </div>
+                <img src="images/ui/UI_bottom_line.png" alt="">
+            </div>
+            <div class="ui-jobs-rt-txt">
+                在“互联网+”时代，UI设计行业中电子商务占45%，金融、传媒广告、消耗品等占一半以上。<br>
+                UI设计行业呈长尾分布，非互联网行业占比升至<span class="ui-blue-font">50%</span>
+            </div>
+        </div>
+    </div>
+    <div class="ui-phone-show">
+        <img src="images/ui/UI0003_22.png" alt="">
+    </div>
+    <div class="ui-need">
+        <div class="ui-need-img">
+            <img src="images/ui/UI_require.png" alt="">
+            <span class="job-need">岗位需求<span class="high-font">大</span></span>
+        </div>
+        <div class="ui-need-rt">
+            <div class="ui-need-rt-tip">
+                <div class="ui-need-rt-tip-title">
+                    <span class="ui-blue-font">UI前线告急!</span>速支援!!
+                </div>
+                <img src="images/ui/UI_bottom_line.png" alt="">
+            </div>
+            <div class="ui-need-rt-txt">
+                新媒体形态持续发展，电脑、手机、数字电视、穿戴设备等智能终端成为主要信息传播载体。<br>
+                <span class="txt-indent-one">人才缺口激增</span><br>
+                <span class="txt-indent-two">日激增<span class="ui-blue-font">26%</span></span><br>
+                <span class="txt-indent-three">一天内空缺接近<span class="ui-blue-font">10000+</span></span>
+            </div>
+        </div>
+    </div>
+    <div class="ui-circle-img">
+        <img src="images/ui/UI_require_picture.png" alt="">
+    </div>
+    <div class="ui-project">
+        <div class="ui-project-title">
+            全真项目课程
+        </div>
+        <div class="ui-project-tip">
+            集理论、案件、实战为一体的教学方法
+        </div>
+        <div class="ui-project-ever">
+            <ul class="ui-project-ul">
+                <li class="ui-plane">
+                    <img src="images/ui/plane_UI.png" alt="">
+                    <span>平面UI设计</span>
+                </li>
+                <li class="ui-web">
+                    <img src="images/ui/web_UI.png" alt="">
+                    <span>网页UI设计</span>
+                </li>
+                <li class="ui-mobil">
+                    <img src="images/ui/mobile_UI.png" alt="">
+                    <span>移动UI设计</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="ui-propagate">
+        <div class="ui-propagate-title">
+            选印特学院课程=4个月就业
+        </div>
+        <div class="ui-propagate-title-two">
+            如果你不适合自学,如果你准备参加培训,一定要选印特学院!
+        </div>
+        <div class="ui-intro-block-one">
+            <div class="ui-intro-one">
+                <img src="images/ui/UI_intro-one.png" alt="">
+            </div>
+            <div class="ui-intro-one-cont">
+                <span class="ui-intro-one-title">
+                    紧贴时代的(课程内容)软件技能知识
+                </span>
+                <span class="ui-intro-one-doc">
+                    陈旧的知识结构意味着低附加价值，也意味着在移动互联网时代被淘汰的命运！ 印特学院为达到培养高素质IT人才的目的，率先将最前沿IT技术融入到课程中，各个知识点合纵连横，承前启后，贯穿在每个教学阶段。
+                </span>
+            </div>
+        </div>
+        <div class="ui-intro-block-two">
+            <div class="ui-intro-two">
+                <img src="images/ui/UI_intro-two.png" alt="">
+            </div>
+            <div class="ui-intro-two-cont">
+                <span class="ui-intro-two-title">
+                    接触并参与开发名企项目
+                </span>
+                <span class="ui-intro-two-doc">
+                    印特学院IT培训课程，跳出案例模拟真实工作环境的传统教育模式，利用公司旗下真实在线it项目进行实战。同时学员将会接触各行业商业项目的研发设计等，让学员将所学技能点转化为实际工作经验。
+                </span>
+            </div>
+        </div>
+        <div class="ui-intro-block-three">
+            <div class="ui-intro-three">
+                <img src="images/ui/UI_intro-three.png" alt="">
+            </div>
+            <div class="ui-intro-three-cont">
+                <span class="ui-intro-three-title">
+                    行业精英手把手教学
+                </span>
+                <span class="ui-intro-three-doc">
+                    印特学院不定期邀请互联网公司技术大咖参与到教学中，与学员进行交流互动，从而开拓学员的视野。同时我们还重金聘请了各大互联网名企的项目经理来担任兼职讲师，将最前沿的职业技能及时教授给学员。
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <!--下面为通用的-->
+    <div class="human-service-block">
+        <div class="human-service-title">
+            人才服务
+        </div>
+        <span class="human-service-eng">
+            Talent&nbsp;service
+        </span>
+        <span class="human-service-txt">
+            通过<span class="human-color-blue">印特旗下二级学院</span> ，为超过一万名处于大学4年和步入职场前5年的青年群体提供岗前互联网相关技能培训服务和就业帮助。 为国内外企业提供互联网人才输送和人才咨询服务，致力于搭建企业和人才之间的敏捷对接平台。
+        </span>
+    </div>
+    <div class="advantage-block">
+        <div class="company-backup">
+            <span class="general-title">
+                强大企业后援<br>
+                享受优先就业权
+            </span>
+            <span class="general-txt">
+                各大名企常年与印特<br>
+                保持密切合作，<br>
+                打造“就业直升班”，<br>
+                毕业不愁没出路
+            </span>
+        </div>
+        <div class="need-talent">
+            <span class="general-title">
+                真正打造行业所需人才
+            </span>
+            <span class="general-txt">
+                各大名企常年与印特<br>
+                保持密切合作，<br>
+                打造“就业直升班”，<br>
+                毕业不愁没出路
+            </span>
+        </div>
+        <div class="teach-mode">
+            <span class="general-title">
+                多平台教学模式
+            </span>
+            <span class="general-txt">
+                各大名企常年与印特<br>
+                保持密切合作，<br>
+                打造“就业直升班”，<br>
+                毕业不愁没出路
+            </span>
+        </div>
+
+        <div class="program-plan">
+            <span class="general-title">
+                更科学、人性化的课程规划
+            </span>
+            <span class="general-txt">
+                各大名企常年与印特<br>
+                保持密切合作，<br>
+                打造“就业直升班”，<br>
+                毕业不愁没出路
+            </span>
+        </div>
+        <div class="propaganda-theme">
+            <span class="propaganda-theme-numb">9</span><br>
+            大优势<br>
+            让你看<br>
+            得到效果
+        </div>
+        <div class="free-learn">
+            <span class="general-title">
+                免费重修，学会为止
+            </span>
+            <span class="general-txt">
+                各大名企常年与印特<br>
+                保持密切合作，<br>
+                打造“就业直升班”，<br>
+                毕业不愁没出路
+            </span>
+        </div>
+
+        <div class="promise">
+            <span class="general-title">
+                保就业，敢书面承诺
+            </span>
+            <span class="general-txt">
+                各大名企常年与印特<br>
+                保持密切合作， <br>
+                打造“就业直升班”，<br>
+                毕业不愁没出路
+            </span>
+        </div>
+        <div class="power">
+            <span class="general-title">
+                有实力，更高薪
+            </span>
+            <span class="general-txt">
+                各大名企常年与印特<br>
+                保持密切合作，<br>
+                打造“就业直升班”，<br>
+                毕业不愁没出路
+            </span>
+        </div>
+        <div class="promise">
+            <span class="general-title">
+                保就业，敢书面承诺
+            </span>
+            <span class="general-txt">
+                各大名企常年与印特<br>
+                保持密切合作，<br>
+                打造“就业直升班”，<br>
+                毕业不愁没出路
+            </span>
+        </div>
+    </div>
+
+</div>
+<div class="mr-jobs">
+
+</div>
+<!--预约-->
+<div class="appointment">
+    <div class="appoint-information">
+        <div><input type="text" placeholder="请输入您的姓名"/></div>
+        <div><input type="text" placeholder="请输入您的手机号"/></div>
+        <div><input type="text" placeholder="IOS应用开发"/><span class="drag rt"><img src="images/index/drag.png" alt=""/></span></div>
+        <p class="btn-appoint">马上预约</p>
+    </div>
+    <div class="consult-detail">
+        <p class="consult-phone"><span class="consult-pic lf"><img src="images/index/phone.png" alt=""/></span><span class="consult-content lf">025-8598-5715</span></p>
+        <p class="consult-address"><span class="consult-pic lf"><img src="images/index/location.png" alt=""/></span><span class="consult-content lf">南京建邺区奥体大街68号新城科技园（国际研发总部园)2栋7楼C区</span></p>
+        <p class="consult-road"><span class="consult-pic lf"><img src="images/index/road.png" alt=""/></span><span class="consult-content lf">地铁10号线中胜站下转乘129路;170路;305路至泰山路·奥
+体大街站<br/>地铁2号线奥体东站下5号出站口步行约840米</span></p>
+    </div>
+</div>
+
+<div class="bottom"></div>
+<script src="js/jquery-1.11.3.js"></script>
+<script>
+    $('.header').load('data/header.php',function(){
+        $('.left-hbb').click(function(){
+            $('.classes-pop').css('display','block');
+            $('.cover').css('display','block');
+        });
+        $('.close img').click(function(){
+            $('.classes-pop').css('display','none');
+            $('.cover').css('display','none');
+        });
+    });
+    $('.bottom').load('data/footer.php');
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

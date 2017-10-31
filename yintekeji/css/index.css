@@ -1,0 +1,314 @@
+/********************index***********************/
+.page-index{
+    width: 100%;
+    /*overflow: hidden !important;*/
+    /*width: 100%;*/
+    margin: 0 auto;
+    position: relative;
+
+}
+
+/*swiper*/
+.swiper{
+    width:100%;
+    height:3.3rem;
+    overflow: hidden;
+}
+/*.swiper div{*/
+/*width:100%;*/
+/*}*/
+.swiper a{
+    display: inline-block;
+    width: 100%;
+    height: 4.3rem;
+
+}
+.swiper a img{
+    width: 100%;
+    height:100%;
+}
+.islider-dot-wrap{
+    top: 3.6rem;
+}
+/*find-job*/
+.find-job{
+    width:100%;
+    padding:0 0.24rem;
+    /*padding-top: 0.5rem;*/
+    margin: 0.5rem 0 0.4rem 0;
+    overflow: hidden;
+}
+.guide-words{
+    margin-bottom: 0.5rem;
+}
+.small-word{
+    font-size: 0.25rem;
+    margin-bottom: 0.3rem;
+    text-align: center;
+}
+.ask-word{
+    color:#0169a2;
+    font-size: 0.35rem;
+    text-align: center;
+}
+.work-varieties{
+    overflow: hidden;
+    padding: 0 0.24rem;
+}
+.phonome{
+    width: 1.7rem;
+    /*height: 2.5rem;*/
+}
+.phonome-pic{
+    width: 1.7rem;
+    height: 1.3rem;
+    margin-bottom: 0.25rem;
+
+}
+.phonome-words{
+    font-size: 0.12rem;
+}
+.first-p-pic{
+    background:url("../images/index/index_mide_show01.png") no-repeat;
+    background-size: cover;
+}
+.second-p-pic{
+    background:url("../images/index/index_mide_show02.png") no-repeat;
+    background-size: cover;
+}
+.third-p-pic{
+    background:url("../images/index/index_mide_show03.png") no-repeat;
+    background-size: cover;
+}
+/*introduction*/
+.yinte-classes-introduction{
+    width:100%;
+    /*height:9.12rem;*/
+}
+.intro-caption{
+    height: 0.85rem;
+    border-bottom:0.01rem solid #444444;
+}
+.intro-caption{
+    color:#0169a2;
+    font-size: 0.3rem;
+    text-align: center;
+    padding-top: 0.3rem;
+}
+.classes-detail{
+    height: 6rem;
+    /*padding: 0 0.24rem;*/
+
+}
+
+
+.classes-detail-words{
+    padding: 0.5rem 0 0.4rem 0;
+    overflow: hidden;
+}
+.classes-detail-words p{
+    font-size: 0.22rem;
+    text-align: center;
+    margin-bottom: 0.15rem;
+}
+.classes-detail-icon{
+    overflow: hidden;
+
+}
+.icon-classify{
+    /*width: 1.4rem;*/
+    width: 25%;
+    height: 2.2rem;
+    /*margin-left: 0.7rem;*/
+}
+.icon-pic{
+    width: 1.16rem;
+    height: 1.16rem;
+    margin: 0 auto;;
+}
+.icon-name{
+    color: #666666;
+    font-size: 0.18rem;
+    margin-top: 0.2rem;
+    text-align: center;
+}
+.icon-pic img{
+    width:100%;
+    height:100%;
+}
+.classes-adver{
+    height: 2.25rem;
+    background: url("../images/index/index_advertisement.png") no-repeat;
+    background-size: cover;
+    margin-top: 0.5rem;
+}
+
+.teachers-detail{
+    padding:0 0.24rem;
+    margin-bottom: 0.37rem;
+}
+.t-detail{
+    height: 8.5rem;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 0 3% 0 3%;
+}
+.main-conte{
+    /*width: 6.4rem;*/
+    width: 87%;
+    /*margin:0 auto;*/
+    position: absolute;
+    top: 0;
+    /*left: 0.25rem;*/
+    left: 7.2%;
+}
+.main-conte ul{
+    width:100%;
+}
+.main-conte ul li{
+    width:33%;
+}
+.t-detail span{
+    margin-right: 0.1rem;
+    padding-bottom: 0.2rem;
+}
+.main-words{
+    color:#03355c;
+    font-size: 0.2rem;
+    text-align: center;
+    margin: 0.5rem 0 0.4rem 0;
+}
+.t-back-icon{
+    /*width: 0.25rem;*/
+    width: 3.2%;
+    height:0.75rem;
+    margin-top: 4rem;
+    /*position: absolute;*/
+    /*top:50%;*/
+}
+.t-back-icon img{
+    width:100%;
+    height:100%;
+}
+.teachers-lists{
+    overflow: hidden;
+}
+.teachers-lists li{
+    float:left;
+}
+.teachers{
+    /*width: 29%;*/
+    /*height: 5.5rem;*/
+    background: #e5e5e5;
+    height: 8.5rem;
+}
+.teachers>p{
+    text-align: center;
+    padding:0 0.2rem;
+}
+.teachers-name{
+    font-size: 0.35rem;
+    color: #666666;
+    margin-bottom: 0.15rem;
+    font-weight: bold;
+    margin-top: 0.25rem;
+}
+.teachers-salary{
+    font-size: 0.25rem;
+    color:#005bac;
+    margin-bottom: 0.2rem;
+    font-weight: bold;
+}
+.teachers-position{
+    font-size: 0.2rem;
+    color:#004567;
+    margin-bottom: 0.2rem;
+}
+.teachers .teachers-exp{
+    font-size: 0.12rem;
+    color:#215572;
+    text-align: left;
+    text-indent: 2em;
+}
+/*jobs*/
+.mr-jobs{
+    height: 8rem;
+    background: url("../images/index/index_jobs_photo.png") no-repeat;
+    background-size: cover;
+
+}
+/*appointment*/
+.appointment{
+    width: 100%;
+    height: 10.3rem;
+    background: url("../images/index/index_middle_bg.png") no-repeat;
+    background-size: cover;
+    margin-top: 0.1rem;
+    /*overflow: hidden;*/
+}
+.appoint-information{
+    width: 6.42rem;
+    /*height: 3.7rem;*/
+    padding-top: 2.4rem;
+    margin: 0 auto;
+}
+.appoint-information div,.btn-appoint{
+    width:100%;
+    height:0.75rem;
+    line-height: 0.75rem;
+    margin-bottom: 0.3rem;
+    background: #fff;
+}
+.appoint-information div input{
+    margin-left: 0.22rem;
+    width: 5.8rem;
+    height: 0.75rem;
+    height: 100%;
+    display: block;
+    float: left;
+}
+.btn-appoint{
+    color: #ffffff;
+    font-size: 0.3rem;
+    text-align: center;
+    background: #eb5813;
+}
+.drag{
+    width: 0.2rem;
+    height: 0.1rem;
+    margin-right: 0.2rem;
+}
+.drag img{
+    width:100%;
+    height:100%;
+}
+.consult-detail{
+    width: 6.42rem;
+    margin:0 auto;
+
+}
+.consult-detail>p{
+    color: #ffffff;
+    font-size: 0.2rem;
+    overflow: hidden;
+    margin-top: 0.38rem;
+}
+.consult-phone .consult-content{
+    font-size: 0.35rem;
+    font-weight: bold;
+}
+.consult-pic{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.consult-pic img{
+    width:100%;
+    height:100%;
+    border-radius: 0.1rem;
+}
+.consult-content{
+    margin-left: 0.2rem;
+    /* font-size: 0.12rem; */
+    width: 5.7rem;
+}

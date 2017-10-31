@@ -1,0 +1,352 @@
+/**********************ͨ����ʽ***************************/
+body{
+    margin:0;
+    padding:0;
+    background:#fff;
+    font: 0.14rem 'Microsoft Yahei';
+}
+ul,ol,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+b{
+    font-weight: normal;
+}
+a{
+    color:#000;
+    text-decoration: none;
+}
+div{
+    box-sizing: border-box;
+}
+input{
+    margin:0px;
+    padding:0px;
+    border:0;
+    outline: none;
+}
+::-webkit-input-placeholder {
+
+    font-size: 0.3rem;
+    color: #7A797B;
+
+}
+:-moz-placeholder {/* Firefox 18- */
+    font-size: 0.3rem;
+    color: #7A797B;
+}
+
+::-moz-placeholder{/* Firefox 19+ */
+    font-size: 0.3rem;
+    color: #7A797B;
+}
+:-ms-input-placeholder {
+    font-size: 0.23rem;
+    color: #7A797B;
+
+}
+.lf{
+    float: left;
+}
+.rt{
+    float: right;
+}
+/*top*/
+.top{
+    width: 100%;
+    /*width: 100%;*/
+    height: 1rem;
+    padding: 0.2rem 0.24rem;
+    padding-top: 0.3rem;
+    background: #fdfdfd;
+}
+.left-hbb{
+    width: 0.6rem;
+    height:0.6rem;
+}
+.right-logo{
+    width: 3rem;
+    height:0.6rem;
+    /*padding-right: 0.4rem;*/
+}
+.left-hbb img,.right-logo img{
+    width:100%;
+    height:100%;
+}
+
+/*���ֲ�*/
+.cover{
+    display: none;
+    width:100%;
+    height: 13rem;
+    background:#000;
+    opacity: 0.3;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1000;
+}
+.classes-pop{
+    display: none;
+    width: 3.3rem;
+    /*height: 10.3rem;*/
+    background: #2285bc;
+    opacity: 0.9;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 10001;
+}
+.classes-pop-ul{
+}
+.classes-pop-ul li{
+    font-size: 0.35rem;
+    /*width: 100%;*/
+    height: 1rem;
+    line-height: 1rem;
+    padding-left: 0.3rem;
+    border-bottom: 0.02rem solid #91c2de;
+}
+.classes-pop-ul li a{
+    display: inline-block;
+    width:100%;
+    height: 1rem;
+    color:#ffffff;
+}
+.close{
+
+    text-align: right;
+}
+.close img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin: 0.2rem;
+    margin-top: 0.4rem;
+}
+
+/*bottom*/
+.bottom{
+    color:#7e7e7e;
+    width:100%;
+    height: 7.7rem;
+    background: #333333;
+}
+.contact-way{
+    padding: 0.24rem;
+}
+.qr-code{
+    margin-bottom: 0.5rem;
+}
+.code-pic{
+    width: 3rem;
+    height: 3rem;
+    background: url("../images/index/QR_code.png") no-repeat;
+    background-size: cover;
+    margin:0 auto;
+}
+.oficial-wexin{
+    font-size: 0.3rem;
+    text-align: center;
+    margin-top: 0.2rem;;
+}
+.contact-us{
+}
+.find-us{
+    color: #a4a4a4;
+    font-size: 0.25rem;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+.phone{
+    font-size: 0.35rem;
+    color: #a4a4a4;
+    font-weight: bolder;
+    margin-bottom: 0.4rem;
+}
+.mail,.address{
+    font-size: 0.25rem;
+    height: 0.34rem;
+    overflow: hidden;
+    margin: 0.2rem 0;
+
+}
+.mail-pic,.address-pic{
+    width: 0.36rem;
+    height:0.34rem;
+}
+.mail-pic{
+    background: url("../images/index/mail.png");
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.address-pic{
+    background: url("../images/index/company_location.png");
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.mail-detail,.address-detail{
+    margin-left: 0.2rem;
+}
+.copyright{
+    font-size: 0.12rem;
+    height: 0.94rem;
+    line-height: 0.47rem;
+    background: #292929;
+}
+.copyright div{
+    text-align: center;
+}
+
+
+/*ͨ�õĴ�����ʽ*/
+.human-service-block{
+    font-size: 0.2rem;
+    text-align: center;
+    color: #888;
+    margin: 0 0 0.3rem 0;
+}
+.human-service-title{
+    color: #0C9DF1;
+    font-size: 0.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.3rem 0 0 0;
+}
+.human-service-eng{
+    /*color: #888;*/
+    font-size: 0.26rem;
+    margin: 0rem 0 0.2rem 0;
+    display: block;
+}
+.human-service-txt{
+    line-height: 0.4rem;
+}
+.human-color-blue{
+    color: #0C9DF1;
+    font-weight: bold;
+}
+.advantage-block{
+    width: 100%;
+    height: 9rem;
+    font-size: 0.2rem;
+    background: url(../images/public/people_bg.png)  no-repeat;
+    background-size: 100% 9rem;
+    color: #fff;
+}
+.company-backup,.need-talent,.teach-mode,.program-plan,.propaganda-theme,.free-learn,.promise,.power,.promise{
+    width: 33.33%;
+    height: 3rem;
+    float: left;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.company-backup,.teach-mode,.promise,.promise{
+    background: rgba(12,157,241,0.5);
+}
+.need-talent,.program-plan,.free-learn,.power{
+    background: rgba(0,0,0,0.5);
+}
+.general-title{
+    margin: 0.4rem 0 0 0;
+    display: block;
+    font-size: 0.22rem;
+    font-weight: bold;
+}
+.general-txt{
+
+}
+.propaganda-theme{
+    font-size: 0.45rem;
+    line-height: 0.7rem;
+    background: rgba(53,77,90,0.8);
+}
+.propaganda-theme-numb{
+    font-size: 0.72rem;
+    font-weight: bold;
+}
+
+
+
+
+/*jobs*/
+.mr-jobs{
+    height: 8rem;
+    background: url("../images/index/index_jobs_photo.png") no-repeat;
+    background-size: cover;
+
+}
+/*appointment*/
+.appointment{
+    width: 100%;
+    height: 10.3rem;
+    background: url("../images/index/index_middle_bg.png") no-repeat;
+    background-size: cover;
+    margin-top: 0.1rem;
+    /*overflow: hidden;*/
+}
+.appoint-information{
+    width: 6.42rem;
+    /*height: 3.7rem;*/
+    padding-top: 2.4rem;
+    margin: 0 auto;
+}
+.appoint-information div,.btn-appoint{
+    width:100%;
+    height:0.75rem;
+    line-height: 0.75rem;
+    margin-bottom: 0.3rem;
+    background: #fff;
+}
+.appoint-information div input{
+    margin-left: 0.22rem;
+    width: 5.8rem;
+    height: 0.75rem;
+    display: block;
+    float: left;
+}
+.btn-appoint{
+    color: #ffffff;
+    font-size: 0.3rem;
+    text-align: center;
+    background: #eb5813;
+}
+.drag{
+    width: 0.2rem;
+    height: 0.1rem;
+    margin-right: 0.2rem;
+}
+.drag img{
+    width:100%;
+    height:100%;
+}
+.consult-detail{
+    width: 6.42rem;
+    margin:0 auto;
+
+}
+.consult-detail>p{
+    color: #ffffff;
+    font-size: 0.2rem;
+    overflow: hidden;
+    margin-top: 0.38rem;
+}
+.consult-phone .consult-content{
+    font-size: 0.35rem;
+    font-weight: bold;
+}
+.consult-pic{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.consult-pic img{
+    width:100%;
+    height:100%;
+    border-radius: 0.1rem;
+}
+.consult-content{
+    margin-left: 0.2rem;
+    /* font-size: 0.12rem; */
+    width: 5.7rem;
+}
+

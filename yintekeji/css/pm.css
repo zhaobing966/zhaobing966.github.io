@@ -1,0 +1,23 @@
+
+.pm-slider-img,.pm-train,.pm-structure,.pm-need,.pm-research,.pm-doc,.pm-product,.pm-pcmobil,.pm-example,.pm-feel,.pm-whole,.pm-online,.pm-uset,.pm-data,.pm-actual,.pm-job{
+    width: 100%;
+}
+.pm-slider-img img{
+    width: 100%;
+}
+.pm-train-title,.pm-structure-title,.pm-need-title,.pm-research-title,.pm-doc-title,.pm-product-title,.pm-pcmobil-title,.pm-example-title,.pm-feel-title,.pm-whole-title,.pm-online-title,.pm-uset-title,.pm-data-title,.pm-actual-title,.pm-job-title{
+    color: #049DF1;
+    font-size: 0.4rem;
+    padding: 0 0 0 0.2rem;
+}
+.pm-structure .pm-structure-title{
+    text-align: center;
+}
+.pm-train-cont,.pm-structure-cont,.pm-need-cont,.pm-research-cont,.pm-doc-cont,.pm-product-cont,.pm-pcmobil-cont,.pm-example-cont,.pm-feel-cont,.pm-whole-cont,.pm-online-cont,.pm-uset-cont,.pm-data-cont,.pm-actual-cont,.pm-job-cont{
+    color: #999;
+    padding: 0.3rem 0.2rem 0.3rem 0.2rem;
+    font-size: 0.24rem;
+}
+.pm-train-img img,.pm-structure-img img,.pm-need-img img,.pm-research-img img,.pm-doc-img img,.pm-product-img img,.pm-pcmobil-img img,.pm-example-img img,.pm-feel-img img,.pm-whole-img img,.pm-online-img img,.pm-uset-img img,.pm-data-img img,.pm-actual-img img,.pm-job-img img{
+    width: 100%;
+}

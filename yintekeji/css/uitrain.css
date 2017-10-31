@@ -1,0 +1,164 @@
+
+.ui-slider-img img{
+    width: 100%;
+}
+.ui-hot-title,.ui-project-title,.ui-propagate-title{
+    color: #0F9FF2;
+    font-size: 0.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+.ui-intro,.ui-salary,.ui-jobs,.ui-need{
+    overflow: hidden;
+    margin: 0.3rem 0 0.3rem 0;
+    width: 100%;
+}
+.ui-intro-img,.ui-salary-img,.ui-jobs-img,.ui-need-img{
+    width: 30%;
+    float: left;
+}
+.ui-intro-img img,.ui-salary-img img,.ui-jobs-img img,.ui-need-img img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.ui-design,.average-salary,.industry-distribution,.job-need{
+    font-size: 0.36rem;
+    display: block;
+    text-align: center;
+    margin: 0.3rem 0 0 0;
+    color: #0F9FF2;
+}
+.ui-intro-rt,.ui-salary-rt,.ui-jobs-rt,.ui-need-rt{
+    float: left;
+    width: 65%;
+    /* padding: 0 0 0 0; */
+    margin: 0 0 0 5%;
+}
+.ui-intro-rt-tip-title,.ui-salary-rt-tip-title,.ui-jobs-rt-tip-title,.ui-need-rt-tip-title{
+    font-size: 0.4rem;
+}
+.ui-blue-font{
+    color: #0F9FF2;
+    font-size: 0.3rem;
+}
+.high-font{
+    font-size: 0.5rem;
+}
+.txt-indent-one,.txt-indent-two,.txt-indent-three{
+
+}
+.ui-intro-rt-tip img,.ui-salary-rt-tip img,.ui-jobs-rt-tip img,.ui-need-rt-tip img{
+    width: 100%;
+    display: block;
+    margin: 0.2rem 0 0 0;
+}
+.ui-intro-rt-txt,.ui-salary-rt-txt,.ui-jobs-rt-txt,.ui-need-rt-txt{
+    font-size: 0.24rem;
+    /* display: block; */
+    /* text-align: center; */
+    margin: 0.3rem 0 0 0;
+    color: #888;
+}
+.ui-page-show img,.ui-histogram img,.ui-phone-show img,.ui-circle-img img{
+    width: 100%;
+}
+.ui-blue-font{
+
+}
+.ui-project-ever{
+
+}
+.ui-project{
+    overflow: hidden;
+}
+.ui-project-ul{
+    margin: 0;
+    padding: 0;
+}
+.ui-project-tip{
+    font-size: 0.24rem;
+    /* display: block; */
+    text-align: center;
+    margin: 0.3rem 0 0.8rem 0;
+    color: #888;
+}
+.ui-plane,.ui-web,.ui-mobil{
+    list-style: none;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.ui-plane img,.ui-web img,.ui-mobil img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+.ui-plane span,.ui-web span,.ui-mobil span{
+    font-size: 0.3rem;
+    color: #666563;
+    /* float: left; */
+    display: block;
+    margin: 0.48rem auto;
+}
+.ui-propagate-title-two{
+    font-size: 0.24rem;
+    /* display: block; */
+    text-align: center;
+    margin: 0.3rem 0 0.8rem 0;
+    color: #888;
+}
+.ui-intro-block-one,.ui-intro-block-three{
+    overflow: hidden;
+    background: #3190D0;
+    color: #fff;
+}
+.ui-intro-block-two{
+    overflow: hidden;
+    background: #F9F9F9;
+    /*color: #888;*/
+}
+.ui-intro-two-doc{
+    color: #888;
+}
+.ui-intro-one,.ui-intro-two,.ui-intro-three{
+    float: left;
+    width: 30%;
+}
+.ui-intro-one img,.ui-intro-two img,.ui-intro-three img{
+    width: 100%;
+}
+.ui-intro-one-cont,.ui-intro-two-cont,.ui-intro-three-cont{
+    float: left;
+    font-size: 0.2rem;
+    width: 68%;
+    margin: 0 0 0 2%;
+}
+.ui-intro-one-title,.ui-intro-two-title,.ui-intro-three-title{
+    display: block;
+    font-size: 0.3rem;
+    margin: 0.2rem 0 0.2rem 0;
+}
+.ui-intro-one-doc,.ui-intro-two-doc,.ui-intro-three-doc{
+    font-size: 0.22rem;
+    padding: 0 0.2rem 0 0;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
